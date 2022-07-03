@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.navi{
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 3;
+}
+.navbar{
+    width: 30%;
+    margin-left: 70px;
+}
+.name{
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.menu-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.menu-item a:hover{
+    color: #f1c2b6;
+}
+.parent{
+    display: block; 
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0,0,0,0.3); */
+    z-index: 2;
+    cursor: pointer;
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)),url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+} 
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
+}
+.box-shadow-full{
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.about{
+    margin: 40px;
+}
+.title-s {
+    font-weight: 600;
+    color: #322e2e;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.avatar-img{
+    margin: 50px 0px 10px 40px;
+    width: 300px;
+    height: 300px;
+}
+.aboutinfo{
+    padding: 40px;
+}
+.skills{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.progress{
+    margin-bottom: 15px;
+}
+.about-title{
+    margin: 20px 10px 20px 10px;
+}
+.contactus{
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));
+    /* border-radius: 15px; */
+    height: 450px;
+}
+.btn-clr{
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));
+    /* border-radius: 15px; */
+}
+input{
+    width: 200px;
+}
+.card{
+    padding: 0px;
+}
+.project{
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));
+    /* border-radius: 15px; */
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+.footer{
+    margin-top: 50px;
+    height: 200px;
+    background-color: rgba(191, 192, 253,0.33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 15px; */
+
+}
+.footer-title{
+    font-size: 35px;
+    margin: 15px 15px;
+}
+.footer-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 25px;
+}
+.f-title{
+    font-size: 30px;
+}
+.f-con{
+    font-size: 20px;
+}
+/* .card{
+    margin-left: 40px;
+    margin-right: 40px;
+} */
